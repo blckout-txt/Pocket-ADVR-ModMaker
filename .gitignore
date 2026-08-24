@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Machine specific SDK location; the build falls back to $ANDROID_HOME
+local.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.kotlin/
+
+# Android build products
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Release signing
+keystore.properties
+*.jks
+*.keystore

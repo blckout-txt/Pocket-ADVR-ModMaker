@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+*.bat text eol=crlf
+gradlew text eol=lf
+
+*.png binary
+*.jar binary
+*.jks binary
+*.keystore binary
+
+# Generated from the ADVR Modding Tools stubs; keep it out of language stats and diffs.
+app/src/main/assets/advr_api.txt linguist-generated=true
